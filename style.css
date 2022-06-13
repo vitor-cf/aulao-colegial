@@ -1,0 +1,40 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.box-menu {
+    background-color: rgb(51, 14, 42);
+    height: 10vh;
+    display: flex; 
+    justify-content: space-around;  
+    align-items: center;
+} 
+.logo {
+    
+    width: 40%;
+}
+h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}   
+    
+.list-menu {
+    width: 50%;
+}
+    
+    
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+li {
+    color: white;
+    font-size: 20px;
+} 
+img {
+    width: 100%;
+} 
+
+    
+    
+    
