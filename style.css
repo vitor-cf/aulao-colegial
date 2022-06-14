@@ -2,8 +2,8 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 .box-menu {
-    background-color: rgb(51, 14, 42);
-    height: 10vh;
+    background-color: rgb(255, 255, 255);
+    height: 15vh;
     display: flex; 
     justify-content: space-around;  
     align-items: center;
@@ -13,27 +13,98 @@ body {
     width: 40%;
 }
 h1 {
-    color: white;
-    font-size: 30px;
+    color: rgb(172, 30, 136);
+    font-size: 50px;
     font-weight: 500;
 }   
     
 .list-menu {
     width: 50%;
 }
-    
-    
 ul {
     display: flex;
     justify-content: space-between;
 }
+a {
+    text-decoration: none;
+} 
+a:hover {
+    text-decoration: overline;
+}
+    
+    
 li {
-    color: white;
-    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 400;
 } 
 img {
-    width: 100%;
+    margin: auto 10px;
+    width: 98%;
 } 
+.titulo-sobre {
+    margin-left: 10px;
+    margin-top: 20px;
+    color: black;
+} 
+    
+    
+.borda {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 8%;
+    border-bottom: 2px solid red;
+}
+    
+.texto-sobre {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}  
+    
+    
+.texto{
+    width: 30%;
+}  
+.foto {
+    width: 30%;
+}
+.titulo-professor {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: black; 
+    text-align: center;
+}
+.box-professor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.borda-professor {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 8%;
+    border-bottom: 2px solid red;
+}
+.box-dad {
+    margin-top: 40px;
+    display: flex;
+}
+.box-perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+} 
+.foto-perfil {
+    border-radius: 100px;
+    width: 40%;
+}
+    
+
+    
+    
 
     
     
